@@ -158,7 +158,7 @@
 // #define DISPLAY_ROTATE_180_DEGREES
 
 // If defined, displays in landscape. Undefine to display in portrait.
-#define DISPLAY_OUTPUT_LANDSCAPE
+//#define DISPLAY_OUTPUT_LANDSCAPE
 
 // If defined, the source video frame is scaled to fit the SPI display by stretching to fit, ignoring
 // aspect ratio. Enabling this will cause e.g. 16:9 1080p source to be stretched to fully cover
@@ -239,3 +239,4 @@
 // driving thread. Otherwise, let the kernel drive SPI (e.g. via interrupts or its own thread)
 // This should be unset, only available for debugging.
 // #define KERNEL_MODULE_CLIENT_DRIVES
+
